@@ -3,3 +3,4 @@
 ## NEW FEATURES JAVA 8
 - Lambda Expression
 - Method References
+- Stream
