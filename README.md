@@ -4,4 +4,5 @@
 - Lambda Expression
 - Method References
 - Stream
-- base64
+- Base64
+- StringJoiner
