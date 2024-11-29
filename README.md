@@ -4,3 +4,4 @@
 - Lambda Expression
 - Method References
 - Stream
+- base64
