@@ -6,3 +6,4 @@
 - Stream
 - Base64
 - StringJoiner
+- Optional
