@@ -8,3 +8,4 @@
 - StringJoiner
 - Optional
 - JavaScript Nashorn
+- Parallel Array Sorting
