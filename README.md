@@ -7,3 +7,4 @@
 - Base64
 - StringJoiner
 - Optional
+- JavaScript Nashorn
