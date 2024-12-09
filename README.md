@@ -10,3 +10,4 @@
 - JavaScript Nashorn
 - Parallel Array Sorting
 - Reflect
+- Annotations
