@@ -18,6 +18,8 @@ public class Exemplo01 {
         listaP.add(new Produto("Mouse", 896.23));
 
         //stream
+        //takeWhile
+        //dropWhile
         listaP.stream()
                 .filter(p -> p.getNome().contains("Geladeira"))
                 .sorted((p1, p2) -> p1.getPreco().compareTo(p2.getPreco()))
