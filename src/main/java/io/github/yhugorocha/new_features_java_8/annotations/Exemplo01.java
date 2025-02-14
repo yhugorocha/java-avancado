@@ -1,4 +1,4 @@
-package io.github.yhugorocha.newFeaturesJava8.annotations;
+package io.github.yhugorocha.new_features_java_8.annotations;
 
 import java.lang.annotation.Repeatable;
 import java.lang.annotation.Retention;

@@ -1,4 +1,4 @@
-package io.github.yhugorocha.newFeaturesJava8.optional;
+package io.github.yhugorocha.new_features_java_8.optional;
 
 import java.util.Optional;
 

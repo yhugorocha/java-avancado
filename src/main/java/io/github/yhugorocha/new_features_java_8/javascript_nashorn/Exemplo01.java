@@ -1,4 +1,4 @@
-package io.github.yhugorocha.newFeaturesJava8.javascript_nashorn;
+package io.github.yhugorocha.new_features_java_8.javascript_nashorn;
 
 import javax.script.*;
 import java.io.FileNotFoundException;

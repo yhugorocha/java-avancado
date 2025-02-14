@@ -1,4 +1,4 @@
-package io.github.yhugorocha.newFeaturesJava8.method_references;
+package io.github.yhugorocha.new_features_java_8.method_references;
 
 public class Exemplo01 {
     public static void main(String[] args) {

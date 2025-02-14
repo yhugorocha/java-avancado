@@ -1,4 +1,4 @@
-package io.github.yhugorocha.newFeaturesJava8.base64;
+package io.github.yhugorocha.new_features_java_8.base64;
 
 import java.nio.charset.StandardCharsets;
 import java.util.Base64;

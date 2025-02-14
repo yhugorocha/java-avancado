@@ -1,4 +1,4 @@
-package io.github.yhugorocha.newFeaturesJava8.lambda_expressions;
+package io.github.yhugorocha.new_features_java_8.lambda_expressions;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package io.github.yhugorocha.newFeaturesJava8.string_joiner;
+package io.github.yhugorocha.new_features_java_8.string_joiner;
 
 import java.util.StringJoiner;
 import java.util.StringTokenizer;

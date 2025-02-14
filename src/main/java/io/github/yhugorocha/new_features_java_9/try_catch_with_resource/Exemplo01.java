@@ -1,4 +1,4 @@
-package io.github.yhugorocha.newFeaturesJava9.try_catch_with_resource;
+package io.github.yhugorocha.new_features_java_9.try_catch_with_resource;
 
 import java.io.BufferedReader;
 import java.io.FileReader;

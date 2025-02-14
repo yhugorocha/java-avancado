@@ -1,29 +1,31 @@
-package io.github.yhugorocha.newFeaturesJava8.stream;
+package io.github.yhugorocha.new_features_java_8.method_references;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class Exemplo01 {
-
+public class Exemplo02 {
     public static void main(String[] args) {
 
         List<Produto> listaP = new ArrayList<>();
 
         listaP.add(new Produto("Tv", 1151.00));
         listaP.add(new Produto("Tablet", 454.56));
-        listaP.add(new Produto("Geladeira 456L", 1454.56));
         listaP.add(new Produto("Monitor", 154.65));
-        listaP.add(new Produto("Geladeira 500L", 2454.56));
-        listaP.add(new Produto("Geladeira 556L", 3454.56));
         listaP.add(new Produto("Mouse", 896.23));
 
-        //stream
-        listaP.stream()
-                .filter(p -> p.getNome().contains("Geladeira"))
-                .sorted((p1, p2) -> p1.getPreco().compareTo(p2.getPreco()))
-                .map(p -> p.getNome())
-                .forEach(System.out::println);
+        //Lambda expression
+        listaP.forEach(p -> System.out.println("Nome: " + p.getNome() + ", Preço: " + p.getPreco()));
 
+        //Method references
+        listaP.forEach(Impressora::imprime);
+
+        listaP.forEach(Produto::imprime);
+    }
+}
+
+class Impressora{
+    public static void imprime(Produto p){
+        System.out.println("Nome: " + p.getNome() + ", Preço: " + p.getPreco());
     }
 }
 
@@ -52,10 +54,8 @@ class Produto {
         this.preco = preco;
     }
 
+
     public void imprime() {
-        System.out.println("Produto{" +
-                "nome='" + nome + '\'' +
-                ", preco=" + preco +
-                '}');
+        System.out.println("Produto - Nome: " + this.nome + ", Preço: " + this.preco);
     }
 }

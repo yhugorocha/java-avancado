@@ -1,4 +1,4 @@
-package io.github.yhugorocha.newFeaturesJava8.parallel_array_sorting;
+package io.github.yhugorocha.new_features_java_8.parallel_array_sorting;
 
 import java.util.Arrays;
 

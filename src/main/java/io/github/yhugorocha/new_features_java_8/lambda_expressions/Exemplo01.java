@@ -1,4 +1,4 @@
-package io.github.yhugorocha.newFeaturesJava8.lambda_expressions;
+package io.github.yhugorocha.new_features_java_8.lambda_expressions;
 
 public class Exemplo01 {
     public static void main(String[] args) {

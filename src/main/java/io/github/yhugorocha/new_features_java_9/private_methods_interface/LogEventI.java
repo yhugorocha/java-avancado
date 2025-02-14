@@ -1,4 +1,4 @@
-package io.github.yhugorocha.newFeaturesJava9.private_methods_interface;
+package io.github.yhugorocha.new_features_java_9.private_methods_interface;
 
 public interface LogEventI {
 

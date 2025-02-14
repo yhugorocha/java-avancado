@@ -1,4 +1,4 @@
-package io.github.yhugorocha.newFeaturesJava8.reflect;
+package io.github.yhugorocha.new_features_java_8.reflect;
 
 import java.lang.reflect.Method;
 import java.lang.reflect.Parameter;
